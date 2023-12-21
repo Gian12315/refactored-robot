@@ -2,6 +2,14 @@
 
 Plugin de bloque para Moodle que utiliza el servicio de `Amazon Rekognition` para hacer análisis de sentimientos de estudiantes en Moodle.
 
+1. [Introducción](#introducción)
+2. [Instalación del plugin](#instalación-del-plugin)
+3. [Instalación de librerías PHP](#instalación-de-librerías-php)
+4. [Buildear los cambios el código Javascript en la carpeta amd](#buildear-los-cambios-al-código-javascript-en-la-carpeta-amd)
+      1. [Instalar grunt](#instalar-grunt)
+      2. [Buildear el código](#buildear-el-código)
+5. [Configuración de las variables de entorno](#configuración-de-las-variables-de-entorno)
+
 ## Instalación del plugin
 
 En su instalación de moodle, dentro de la carpeta `blocks` ejecute el siguiente comando.

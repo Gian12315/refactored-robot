@@ -2,6 +2,14 @@
 
 Moodle block plugin that utilizes the Amazon Rekognition service to perform feelings analysis on students in Moodle.
 
+1. [Introduction](#moodle-plugin-for-emotion-recognition)
+2. [Plugin installation](#plugin-installation)
+3. [Installation of PHP Libraries](#installation-of-php-libraries)
+4. [Build Changes to JavaScript Code in the amd Folder](#build-changes-to-javascript-code-in-the-amd-folder)
+      1. [Install grunt](#install-grunt)
+      2. [Build the code](#build-the-code)
+5. [Configuration of Environment Variables](#configuration-of-environment-variables)
+
 ## Plugin Installation
 
 In your Moodle installation, navigate to the `blocks` folder and execute the following command:
@@ -16,7 +24,7 @@ git clone https://github.com/Gian12315/refactored-robot.git simplecamera
 composer require aws-project/stormwind:dev-dev
 ```
 
-## Build Changes to the JavaScript Code in the amd Folder
+## Build Changes to JavaScript Code in the amd Folder
 
 The plugin uses logic built in JavaScript, so changes made to this code must be built for the plugin to use it correctly (see more at: https://moodledev.io/docs/guides/javascript/modules). For this, the `grunt` tool is used.
 
@@ -69,3 +77,4 @@ DB_NAME = moodle # This is the name of the Moodle database
 DB_USER = your-user
 DB_PASSWORD = your-password
 ```
+
